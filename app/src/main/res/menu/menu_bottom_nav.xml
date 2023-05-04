@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/listFragment"
+        android:title="@string/menu_list"
+        android:icon="@drawable/ic_navigation"
+        app:showAsAction="never"
+        />
+    />
+    <item
+        android:id="@+id/compatibilityFragment"
+        android:title="@string/menu_compatibility"
+        android:icon="@drawable/ic_compare"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/informationFragment"
+        android:title="@string/menu_information"
+        android:icon="@drawable/ic_info"
+        app:showAsAction="never"
+        />
+
+</menu>
